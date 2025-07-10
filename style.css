@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+header{
+  background: url('./Assets/Hero-bg.png');
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+}
+nav a {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav button {
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 25px;
+  border: 0;
+}/* end navbar */
+
+/* hero */
+.hero{
+  padding: 150px 0 200px 0;
+  text-align: center;
+}
+.hero h1{
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 65px;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 40px;
+}
+.hero button{
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+padding: 15px 35px;
+border: 0;
+} /* end hero */
