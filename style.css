@@ -51,6 +51,10 @@ nav button {
   text-align: center;
   padding: 10px 30px;
   border: 0;
+  transition: all 1s ease-in-out;
+}
+nav button:hover {
+  background: rgba(8, 4, 119, 0.805);
 } /* end navbar */
 
 /* hero */
@@ -80,7 +84,12 @@ nav button {
   text-align: center;
   padding: 10px 35px;
   border: 0;
-} /* end hero */
+  transition: all 1s ease-in-out;
+}
+.hero button:hover {
+  background: rgba(8, 4, 119, 0.805);
+}
+/* end hero */
 
 /* action area */
 .action-container {
@@ -121,6 +130,10 @@ nav button {
   text-align: center;
   padding: 10px 50px;
   border: 0;
+  transition: all 1s ease-in-out;
+}
+.action-content button:hover {
+  background: rgba(8, 4, 119, 0.805);
 }
 .action-img-container img {
   border-radius: 48px;
@@ -207,7 +220,6 @@ nav button {
 .review-card-1 h4,
 .review-card-2 h4,
 .review-card-3 h4 {
-  /* Heading */
   color: rgb(30, 30, 30);
   font-family: Inter;
   font-size: 24px;
@@ -238,7 +250,18 @@ nav button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-} /* end review area */
+}
+.avater-section span,
+p {
+  color: rgb(117, 117, 117);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* end review area */
 
 /* focus-container */
 .focus-container {
@@ -247,6 +270,7 @@ nav button {
   background: rgb(255, 255, 255);
   padding: 70px 150px;
   text-align: center;
+  margin-bottom: 70px;
 }
 .focus-container h2 {
   color: rgb(0, 0, 0);
@@ -257,17 +281,17 @@ nav button {
   letter-spacing: 0%;
   margin-bottom: 20px;
 }
-.focus-container h4{
+.focus-container h4 {
   /* Body Base */
-color: rgba(0, 0, 0, 0.5);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0%;
-margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
 }
-.focus-container button{
+.focus-container button {
   border-radius: 10px;
   background: rgb(78, 71, 255);
   color: rgb(255, 255, 255);
@@ -280,8 +304,123 @@ margin-bottom: 20px;
   padding: 10px 50px;
   border: 0;
   margin-bottom: 20px;
+  transition: all 1s ease-in-out;
 }
-.focus-container img{
+.focus-container button:hover {
+  background: rgba(8, 4, 119, 0.805);
+}
+.focus-container img {
   border-radius: 48px;
+} /* end focus-container */
+
+/* contact area*/
+.contact-container {
+  margin: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0;
 }
-/* end focus-container */
+.contact-container h2 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+label {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+input,
+textarea {
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  padding: 15px 20px;
+  background: rgb(255, 255, 255);
+  width: 497px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#submit {
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
+#submit:hover {
+  background: rgba(8, 4, 119, 0.805);
+} /* end contact area*/
+
+/* footer area */
+footer {
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+.footer-container {
+  padding: 104px 10%;
+}
+.footer-container h1 {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 121px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-container p {
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-container nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto;
+}
+.footer-container nav ul li a {
+  /* Paragraph */
+  color: rgb(137, 135, 161);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.footer-container nav ul li:hover a {
+  text-decoration: underline;
+  color: rgb(78, 71, 255);
+} /* end footer area */
