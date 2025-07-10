@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: f5f8ff;
+  background-color: #f5f8ff;
 }
 a {
   text-decoration: none;
@@ -195,14 +195,18 @@ nav button {
   gap: 20px;
   margin: 0 10%;
 }
-.review-card-1 ,.review-card-2,.review-card-3{
+.review-card-1,
+.review-card-2,
+.review-card-3 {
   border: 1px solid rgb(242, 237, 237);
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.5);
   padding: 25px;
   width: 33%;
 }
-.review-card-1 h4,.review-card-2 h4,.review-card-3 h4{
+.review-card-1 h4,
+.review-card-2 h4,
+.review-card-3 h4 {
   /* Heading */
   color: rgb(30, 30, 30);
   font-family: Inter;
@@ -214,7 +218,9 @@ nav button {
   margin-bottom: 10px;
   margin-top: 24px;
 }
-.review-card-1 p,.review-card-2 p,.review-card-3 p {
+.review-card-1 p,
+.review-card-2 p,
+.review-card-3 p {
   color: rgb(30, 30, 30);
   font-family: Inter;
   font-size: 16px;
@@ -224,13 +230,58 @@ nav button {
   text-align: left;
   margin-bottom: 24px;
 }
-.avater-section{
+.avater-section {
   display: flex;
   gap: 10px;
 }
-.avater-section img{
+.avater-section img {
   width: 40px;
-height: 40px;
-border-radius: 50%;
+  height: 40px;
+  border-radius: 50%;
+} /* end review area */
+
+/* focus-container */
+.focus-container {
+  margin: 0 10%;
+  border-radius: 14px;
+  background: rgb(255, 255, 255);
+  padding: 70px 150px;
+  text-align: center;
 }
-/* end review area */
+.focus-container h2 {
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+.focus-container h4{
+  /* Body Base */
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+.focus-container button{
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 50px;
+  border: 0;
+  margin-bottom: 20px;
+}
+.focus-container img{
+  border-radius: 48px;
+}
+/* end focus-container */
